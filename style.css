@@ -1,0 +1,18 @@
+* {
+  margin: 5;
+  padding: 5;
+}
+
+body {
+  width: 99%;
+  line-height: 32px;
+}
+
+h1 {
+  font-family: Helvetica, sans-serif;
+}
+
+#main-form {
+  font-size: 24px;
+  font-weight: 300;
+}
