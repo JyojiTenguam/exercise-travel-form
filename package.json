@@ -1,0 +1,23 @@
+{
+  "scripts": {
+    "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json . --ext .js, .jsx",
+    "lint:styles": "stylelint **/*.css --config .stylelintrc.json --ignore-disables --allow-empty-input",
+    "cypress:open": "cypress open",
+    "test": "cypress run",
+    "cy:browser": "cypress run --headless --browser chrome"
+  },
+  "devDependencies": {
+    "cypress": "^12.13.0",
+    "cypress-layout-inspector": "^1.7.0",
+    "cypress-multi-reporters": "^1.6.3",
+    "eslint-config-trybe-fundamentals": "^1.1.1",
+    "eslint-plugin-cypress": "^2.13.3",
+    "minimist": "^1.2.8",
+    "mocha": "^10.2.0",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^4.3.0",
+    "mochawesome-report-generator": "^6.2.0",
+    "stylelint": "^15.6.2",
+    "stylelint-config-standard": "^33.0.0"
+  }
+}
