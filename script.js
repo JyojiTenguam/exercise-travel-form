@@ -12,7 +12,15 @@ function clearFields() {
   textArea.value = '';
 }
 
+function enableSubmit() {
+  const submitBtn = document.querySelector('#submit-btn');
+  const agreement = document.querySelector('#agreement');
+  submitBtn.disabled = !agreement.checked;
+}
+
 window.onload = function () {
   const clearBtn = document.querySelector('#clear-btn');
   clearBtn.addEventListener('click', clearFields);
+  const agreement = document.querySelector('#agreement');
+  agreement.addEventListener('change', enableSubmit);
 };
