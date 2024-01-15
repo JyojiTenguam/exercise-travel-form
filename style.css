@@ -8,7 +8,7 @@ body {
   font-family: Helvetica, sans-serif;
   width: 100%;
   line-height: 1.6;
-  background-color: #f4f4f4;
+  background-color: white;
 }
 
 #title {
@@ -19,29 +19,26 @@ body {
 #main-form {
   max-width: 600px;
   margin: 20px auto;
-  background-color: #fff;
+  background-color: white;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 label {
-  display: block;
+  display: flex;
   margin-top: 10px;
 }
 
-input[type="text"],
-input[type="email"],
-textarea,
-input[type="date"] {
+/* #form-fieldset input {
   width: 100%;
   padding: 10px;
   margin-top: 5px;
   margin-bottom: 15px;
-  border: 1px solid #ccc;
+  border: 1px solid gray;
   border-radius: 4px;
   box-sizing: border-box;
-}
+} */
 
 .radios {
   margin-right: 5px;
@@ -52,8 +49,8 @@ textarea {
 }
 
 button {
-  background-color: #4caf50;
-  color: #fff;
+  background-color: rgb(69, 160, 73);
+  color: white;
   padding: 10px 20px;
   border: none;
   border-radius: 4px;
@@ -62,15 +59,15 @@ button {
 }
 
 button:disabled {
-  background-color: #ccc;
+  background-color: gray;
   cursor: not-allowed;
 }
 
 button #clear-btn {
-  background-color: #f44336;
+  background-color: rgb(244, 67, 54);
 }
 
 button:hover {
-  background-color: #45a049;
+  background-color: rgb(69, 160, 73);
 }
 
