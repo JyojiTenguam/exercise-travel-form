@@ -44,6 +44,12 @@ label {
   margin-right: 5px;
 }
 
+.radio-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
 textarea {
   resize: vertical;
 }
