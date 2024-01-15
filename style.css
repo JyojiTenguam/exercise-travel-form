@@ -58,7 +58,11 @@ button {
   border-radius: 4px;
   cursor: pointer;
   margin-top: 10px;
-  width: 15%;
+}
+
+.button-container {
+  display: flex;
+  gap: 10px; /* Adiciona um espaço entre os botões */
 }
 
 button:disabled {
