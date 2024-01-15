@@ -17,7 +17,7 @@ body {
 }
 
 #main-form {
-  max-width: 600px;
+  max-width: 700px;
   margin: 20px auto;
   background-color: white;
   padding: 20px;
@@ -30,15 +30,11 @@ label {
   margin-top: 10px;
 }
 
-/* #form-fieldset input {
-  width: 100%;
-  padding: 10px;
-  margin-top: 5px;
-  margin-bottom: 15px;
-  border: 1px solid gray;
-  border-radius: 4px;
-  box-sizing: border-box;
-} */
+#form-fieldset {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
 
 .radios {
   margin-right: 5px;
@@ -51,7 +47,7 @@ label {
 }
 
 textarea {
-  resize: vertical;
+  resize: none;
 }
 
 button {
@@ -62,6 +58,7 @@ button {
   border-radius: 4px;
   cursor: pointer;
   margin-top: 10px;
+  width: 15%;
 }
 
 button:disabled {
